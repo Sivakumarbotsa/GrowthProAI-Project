@@ -1,0 +1,26 @@
+
+---
+
+## 📄 `.gitignore`
+
+Place this in the root folder (and Vite/Node will also have their own):
+
+```gitignore
+# Root-level
+node_modules/
+dist/
+.env
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Express
+backend/node_modules/
+backend/.env
